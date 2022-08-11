@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Survey Form.css">
+    <title>Fab Services</title>
+</head>
+<body>
+    <div class="form header">
+        <h1 id="title">Movies Survey Form</h1>
+    <p id="description">Thank you for been generous with your time</p>
+    </div>
+
+    <div class="container">
+    <form id="survey-form" >
+      <label id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required/></label>
+
+      <label id="email-label">Email <input id="email" type="email" placeholder="Enter your email" required/></label>
+
+      <label id="number-label">Telephone Number <input id="number" type ="number" placeholder="08040572662" max="11" min="5" required/></label>
+
+<label>Age?
+      <label><input type="radio" class="inline" name="age" value="1"/>10-15</label>
+      <label><input type="radio" class="inline" name="age" value="2"/>16-21</label>
+      <label><input type="radio" class="inline" name="age" value="3"/>22-27</label>
+      <label><input type="radio" class="inline" name="age" value="4"/>28-30</label>
+      </label>
+
+
+<label>When do you watch new movies?
+ <select id="dropdown">
+   <option value"">(select one)</option>
+   <option value="1">A day after</option>
+   <option value="2">Some days after</option>
+   <option value="3">A week after</option>
+   <option value="4">Some weeks after</option>
+   <option value="5">A month after</option>
+   <option value="6">Two Months after</option>
+   <option value="7">Six Months after</option>
+
+
+ </select>
+</label>
+
+<label> What is your favourite genre?</label>
+  <label><input type="checkbox" name="genre" class="inline" value="action"/>Action</label>
+
+  <label><input type="checkbox" name="genre" class="inline" value="adventure"/>Adventure</label>
+  <label><input type="checkbox" name="genre" class="inline" value="animation"/>Animation</label>
+
+  <label><input type="checkbox" name="genre" class="inline" value=" comedy"/>Comedy</label>
+
+  <label><input type="checkbox" name="genre" class="inline" vlaue="documentary"/>Documentary</label>
+
+  <label><input type="checkbox" name="genre" class="inline"value="drama"/>Drama</label>
+
+  <label><input type="checkbox" name="genre" class="inline" value="fantasy"/>Fantasy</label>
+
+  <label><input type="checkbox" name="genre" class="inline" value="horror"/>Horror</label>
+
+  <label><input type="checkbox" name="genre" class="inline"value="romantic"/>Romantic</label>
+
+  <label><input type="checkbox" name="genre" class="inline"value="rom-com"/>Romantic Comedy</label>
+
+  <label><input type="checkbox" name="genre" class="inline" value="sci-fi"/>Science Fiction</label>
+
+  <label><input type="checkbox" name="genre" class="inline" value="thriller&mystery"/> Thriller & Mystery</label>
+
+  <label>Any comments or suggestions?
+    <textarea rows="7" cols="40" placeholder="Enter your comment here..." name="suggestions"></textarea>
+    </label>
+
+    <div class="footer">
+    <input type="submit" value="Submit" id="submit"/>
+    </div>
+
+
+
+    </form>
+    </div>
+  
+</body>
+</html>
